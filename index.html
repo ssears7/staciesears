@@ -70,6 +70,14 @@
                 <p>I definately should've eaten dinner before coming to class tonight. I'm starving!!</p>
             </div>
         </div>
+		
+		  <div class="container">
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <button id="btnclickme" type="button" >click me</button>
+            </div>
+        </div>
         
     </div>
 
@@ -78,7 +86,11 @@
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-        // JavaScript HERE
+        
+		
+		$("#btnclickme").click(function(){
+		$(img).fadeout();
+		});
     </script>
 </body>
 
